@@ -1,0 +1,24 @@
+Package: protopretzel
+Title: Filter And Serializer Using Protocol Buffers For Plumber
+Version: 0.1
+Authors@R: c(
+  person("Joao", "Santiago", email = "santiago@billie.io", role = c("aut", "cre")),
+  person("Daniel", "Kirsch", role = "aut"),
+  person("Billie GmbH", role = "cph"))
+Description: Make your Plumber API talk with other services using Protocol Buffers,
+  using your own .proto descriptor file.
+Depends: R (>= 3.5.0), RProtoBuf (>= 0.4.13)
+Imports:
+  plumber,
+  stats,
+  stringr
+Suggests:
+  devtools,
+  roxygen2,
+  testthat
+License: MIT + file LICENSE
+Encoding: UTF-8
+LazyData: true
+BugReports: https://github.com/ozean12/protopretzel/issues
+URL: https://github.com/ozean12/protopretzel
+RoxygenNote: 6.1.1
