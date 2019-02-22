@@ -5,12 +5,12 @@
 [Protocol Buffers](https://developers.google.com/protocol-buffers/) filter and 
 serializer for [Plumber](https://www.rplumber.io/).
 
-**filter** will unserialize ProtoBuf messages according
+The **protoBuf filter** will unserialize ProtoBuf messages according
 to the `messagetype` set in the request header
 (e.g. `Content-Type: application/x-protobuf; messagetype=prototest.TestPayload`), 
 and matching a `.proto` descriptor file.
 
-**serializer** serializes an [RProtoBuf](https://github.com/eddelbuettel/rprotobuf)
+**The protoBuf serializer** serializes an [RProtoBuf](https://github.com/eddelbuettel/rprotobuf)
 message descriptor object, adding the type of message to the response header.
 
 `protopretzel` is under active development and things may break.
