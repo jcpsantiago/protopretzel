@@ -1,7 +1,7 @@
 [![Travis build status](https://travis-ci.org/ozean12/protopretzel.svg?branch=master)](https://travis-ci.org/ozean12/protopretzel)
 [![lifecycle](https://img.shields.io/badge/lifecycle-experimental-orange.svg)](https://www.tidyverse.org/lifecycle/#experimental)
 
-# protopretzel
+# protopretzel🥨
 
 [Protocol Buffers](https://developers.google.com/protocol-buffers/) filter and 
 serializer for [Plumber](https://www.rplumber.io/).
