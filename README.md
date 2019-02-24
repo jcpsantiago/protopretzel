@@ -1,5 +1,6 @@
 [![Travis build status](https://travis-ci.org/ozean12/protopretzel.svg?branch=master)](https://travis-ci.org/ozean12/protopretzel)
 [![lifecycle](https://img.shields.io/badge/lifecycle-experimental-orange.svg)](https://www.tidyverse.org/lifecycle/#experimental)
+ [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
 
 # protopretzel🥨
 
