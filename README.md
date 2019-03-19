@@ -2,7 +2,7 @@
 [![lifecycle](https://img.shields.io/badge/lifecycle-experimental-orange.svg)](https://www.tidyverse.org/lifecycle/#experimental)
  [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
 
-# protopretzel🥨
+# protopretzel <img src="logo.png" align="right" width="180px" />
 
 [Protocol Buffers](https://developers.google.com/protocol-buffers/) filter and 
 serializer for [Plumber](https://www.rplumber.io/).
