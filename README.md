@@ -2,7 +2,7 @@
 [![lifecycle](https://img.shields.io/badge/lifecycle-experimental-orange.svg)](https://www.tidyverse.org/lifecycle/#experimental)
  [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
 
-# protopretzel <img src="logo.png" align="right" width="180px" />
+# protopretzel <img src="logo.png" align="right" width="180px"/>
 
 [Protocol Buffers](https://developers.google.com/protocol-buffers/) filter and 
 serializer for [Plumber](https://www.rplumber.io/).
@@ -14,8 +14,6 @@ and matching a `.proto` descriptor file.
 
 The **ProtoBuf serializer** serializes an [RProtoBuf](https://github.com/eddelbuettel/rprotobuf)
 message descriptor object, adding the type of message to the response header.
-
-Currently, we have tested only simple messages without nested fields.
 
 `protopretzel` is under active development and things may break. Check out the [protopretzel-playground](https://github.com/ozean12/protopretzel-playground) for an example implementation.
 
