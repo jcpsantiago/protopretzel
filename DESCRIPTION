@@ -1,12 +1,12 @@
 Package: protopretzel
-Title: Filter And Serializer Using Protocol Buffers For Plumber
-Version: 0.1
+Title: Filter and Serializer Using 'Protocol Buffers' for 'Plumber'
+Version: 1.0.0
 Authors@R: c(
   person("Joao", "Santiago", email = "santiago@billie.io", role = c("aut", "cre")),
   person("Daniel", "Kirsch", role = "aut"),
   person("Billie GmbH", role = "cph"))
-Description: Make your Plumber API talk with other services using Protocol Buffers,
-  using your own .proto descriptor file.
+Description: Make your 'Plumber' API talk with other services using 'Protocol Buffers',
+  using your own '.proto' descriptor file.
 Depends: R (>= 3.5.0), RProtoBuf (>= 0.4.13)
 Imports:
   plumber,
