@@ -13,9 +13,10 @@ Imports:
   stats,
   stringr
 Suggests:
-  devtools,
-  roxygen2,
-  testthat
+    devtools,
+    roxygen2,
+    testthat,
+    covr
 License: MIT + file LICENSE
 Encoding: UTF-8
 LazyData: true

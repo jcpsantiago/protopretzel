@@ -4,5 +4,8 @@ language: R
 sudo: false
 cache: packages
 
-before_install: 
+before_install:
   - sudo apt-get install protobuf-compiler libprotobuf-dev libprotoc-dev
+
+after_success:
+  - Rscript -e 'covr::codecov()'
