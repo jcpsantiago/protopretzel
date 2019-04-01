@@ -5,7 +5,7 @@ Authors@R: c(
   person("Joao", "Santiago", email = "santiago@billie.io", role = c("aut", "cre")),
   person("Daniel", "Kirsch", role = "aut"),
   person("Billie GmbH", role = "cph"))
-Description: Make your 'Plumber' API talk with other services using 'Protocol Buffers',
+Description: Make your 'Plumber' <https://www.rplumber.io/> API talk with other services using 'Protocol Buffers',
   using your own '.proto' descriptor file.
 Depends: R (>= 3.5.0), RProtoBuf (>= 0.4.13)
 Imports:
