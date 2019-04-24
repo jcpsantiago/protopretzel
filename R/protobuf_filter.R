@@ -13,7 +13,7 @@
 #' @export
 addProtobufFilter <- function(api, name = "protoBuf", descriptor_path) {
 
-  if (!("plumber" %in% class(api))) {
+  if (!inherits(api, 'plumber')) {
     stop("No plumber API provided!")
   }
 
